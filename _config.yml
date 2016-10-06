@@ -15,16 +15,21 @@
 # in the templates via {{ site.myvariable }}.
 title: w35
 email: contact@wesaspinall.com
+greeting: > #
+Hi, I'm Wes Aspinall.
+location: > #
+Miami, FL
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Wing Chun Kung-fu, reading business & motivational literature, digital
+  photography, and dog whispering.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://wesaspinall.com" # the base hostname & protocol for your site
+url: "http://wesaspinall.github.io" # the base hostname & protocol for your site
 twitter_username: wesaspinall
-github_username:  wes
+github_username:  wesaspinall
 disqus: wesaspinall
-
+name: Wes Aspinall
+gaaccount: true
+comments: true
 # Build settings
 markdown: kramdown
 theme: minima
