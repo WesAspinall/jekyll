@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "welcome"
+date:   2016-10-05 22:07:19 -0400
+categories: AngularJS
+comments: true
+---
+# Welcome to my blog. 
+Here, I will go into detail about what I'm working on and what I'm currently learning. I've been hitting AngularJS 1.5.x pretty hard lately, and I thought it would be a good idea to share.
+
+In the meantime, check out the [github repo] to review your knowledge of AngularJS. I go through transclusion, form validation, component-based architecture and more. Everything is based on Todd Motto's way of building AngularJS apps. 
+
+Thnx fr rdng,
+
+Wes
+
+
+[github repo]: https://github.com/wesaspinall/ng-koans
+
