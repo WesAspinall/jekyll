@@ -8,6 +8,12 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+
+
+gems:
+  - jekyll-auto-image
+
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -34,8 +40,12 @@ name: Wes Aspinall
 gaaccount: true
 comments: true
 
+
 # Build settings
 markdown: kramdown
 theme: minima
 permalink: pretty
 
+image: images/cc_by_88x31.png
+
+timezone: America/New_York

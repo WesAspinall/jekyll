@@ -1,9 +1,0 @@
----
-layout: post
-title:  "hello"
-categories: AngularJS
-comments: true
----
-
-
-Hello world you sexy beast you

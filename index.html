@@ -9,7 +9,8 @@ layout: default
   <ul class="col-sm-8 post-list">
     {% for post in site.posts %}
       <li>
-        <span class="date post-meta post-date">{{ post.date | date: "%F" }}</span>
+        <img src='{{ page.image }}'>
+        <span class="date post-meta post-date">{{ post.date | date_to_xmlschema }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
