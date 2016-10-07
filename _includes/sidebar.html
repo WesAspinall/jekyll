@@ -1,5 +1,12 @@
-<div class="sidebar well">
-  <strong>Hi, I'm Wes. I'm a Web Developer.</strong>
+<div class="sidebar well top">
+
+{% if site.profile_pic != '' %}
+  <div class='pic-container'>
+    <img class='profile-pic' src='{{site.profile_pic}}' alt='wes aspinall profile pic'>
+  </div>
+{% endif %}
+
+<div class='strong'>Hi, I'm Wes. I'm a Web Developer based in Miami, FL.</div>
 {{ site.description }}
 </div>
 
