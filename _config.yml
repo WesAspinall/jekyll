@@ -8,6 +8,12 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+
+
+gems:
+  - jekyll-auto-image
+
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -18,6 +24,7 @@ email: contact@wesaspinall.com
 description: > # this means to ignore newlines until "baseurl:"
   Javascript, business & motivational literature, kung-fu, digital
   photography.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wesaspinall.com" # the base hostname & protocol for your site
 
@@ -34,7 +41,20 @@ name: Wes Aspinall
 gaaccount: true
 comments: true
 
+
 # Build settings
 markdown: kramdown
 theme: minima
 permalink: pretty
+
+image: images/cc_by_88x31.png
+
+
+
+# # post defaults 
+# defaults:
+#   -
+#     scope:
+#       path: "" # an empty string here means all files in the project
+#     values:
+#       layout: "default"

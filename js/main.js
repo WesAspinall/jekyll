@@ -1,14 +1,20 @@
+'use-strict';
+
 (function() {
 
 
-  var postDate = moment().diff('2016-10-05', 'hours');
-  var dur = moment.duration(postDate, "hours").humanize();
+  $('.date').each(function() {
+    var postDate = $(this).html();
+    var processedDate = moment().diff(postDate, 'seconds');
+    var duration = moment.duration(processedDate, "seconds").humanize();
 
+    var timeSince = 'posted ' + duration + ' ago';
+    
+    return $(this).html(timeSince);
+  });
 
-  var timeSince = 'posted ' + dur + ' ago';
+  var content = $('.post-content').text();
 
-  $('.post-date').html(function() {
-    return timeSince;
-  })
+  console.log(content.split('').length);
 
 })();

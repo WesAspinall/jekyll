@@ -3,11 +3,14 @@ body {
     padding-bottom: 60px;
 }
 
+
 .copyright {
     color: #ffffff;
 }
 
 .footer {
+    position: fixed;
+    bottom: 0;
     text-align: center;
 }
 
@@ -22,6 +25,7 @@ body {
 
 .sidebar a {
     color: #428bca;
+    
 }
 
 .sidebar li {
@@ -60,6 +64,7 @@ body {
 
 .post-list li {
    margin: 3em;
+   animation: scaleIn 1s;
 }
 
 .top {
@@ -80,6 +85,26 @@ body {
     border-radius: 100px;
     box-shadow: 2px 0 3px black ;
     text-align: center;
+    animation: scaleIn 0.8s;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0.1;
+    transform: scale(.97);
+  }
+  100% {
+    opacity: 100%;
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
