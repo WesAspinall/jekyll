@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vivamus porttitor porta tortor"
+title: "Vivamus"
 date: 2012-05-22 16:25:06 -0700
 comments: true
 ---

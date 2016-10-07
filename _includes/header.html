@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ site.name }}</title>
+    <link rel="icon" type="image/x-icon" href="{{site.baseurl }}/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
@@ -29,11 +30,14 @@
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="{{ site.baseurl }}/portfolio">Portfolio</a></li>
-                    <li class="active visible-xs-block"><a href="{{ site.baseurl }}/links">Links</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/archive">Post Archive</a></li>
+                   <!--  <li class="active visible-xs-block"><a href="{{ site.baseurl }}/links">Twitter Feed</a></li> -->
                     {% if site.github != '' %}
-                      <li class="active"><a href="https://github.com/{{ site.github }}">Github</a></li>
+                    <li class="active"><a href="https://github.com/{{ site.github }}">Github</a></li>
                     {% endif %}
+                    {% if site.linkedin != '' %}
+                    <li class="active"><a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a></li>
+                    {% endif %}
+                    <li class="active"><a href="{{ site.baseurl }}/archive">Post Archive</a></li>
                 </ul>
               </div>
         </div>

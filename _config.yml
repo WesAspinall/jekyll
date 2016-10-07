@@ -20,13 +20,19 @@ description: > # this means to ignore newlines until "baseurl:"
   photography.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wesaspinall.com" # the base hostname & protocol for your site
+
+profile_pic: https://avatars.githubusercontent.com/u/14037370?v=3
+
 twitter_username: wesaspinall
 github_username:  wesaspinall
 github: wesaspinall
+linkedin: true
+linkedin_username: wesaspinall
 disqus: wesaspinall
 name: Wes Aspinall
 gaaccount: true
 comments: true
+
 # Build settings
 markdown: kramdown
 theme: minima
