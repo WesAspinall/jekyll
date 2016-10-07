@@ -30,3 +30,4 @@ comments: true
 # Build settings
 markdown: kramdown
 theme: minima
+permalink: pretty
