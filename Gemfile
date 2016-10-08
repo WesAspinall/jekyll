@@ -25,3 +25,4 @@ end
 
 
 gem 'jekyll-auto-image'
+gem 'jekyll-bootstrap-sass'

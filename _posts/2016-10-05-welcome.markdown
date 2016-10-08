@@ -3,6 +3,7 @@ layout: post
 title:  "welcome"
 date:   2016-10-05 22:07:19 -0400
 categories: AngularJS
+description: "Before, we used directives for almost everything. That all changes in Angular 1.5 and 2."
 comments: true
 ---
 # Welcome to my blog. 
