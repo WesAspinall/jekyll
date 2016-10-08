@@ -1,0 +1,27 @@
+/*Home page post feed*/
+
+
+.post-feed {
+  list-style-type: none;
+  padding-right: 2em;
+ }
+
+.card {
+  margin-bottom: 2em;
+  max-width: 500px;
+  img {
+    border-radius: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .post-feed {
+    margin-left: 35%;
+  }
+}
+
+@media (min-width: 992px) {
+  .post-feed {
+    margin-left: 25%;
+  }
+}

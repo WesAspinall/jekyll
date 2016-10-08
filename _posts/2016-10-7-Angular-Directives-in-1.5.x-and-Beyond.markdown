@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "wes"
+title:  "Directives in Angular 1.5.x and Beyond"
 date:   2016-10-07 06:31:10
+
+description: "Before, we used directives for almost everything. That all changes in Angular 1.5 and 2."
+tags: AngularJS
 categories: AngularJS
 comments: true
 ---
