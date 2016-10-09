@@ -22,7 +22,3 @@ gem "minima"
 group :jekyll_plugins do
   gem "jekyll-github-metadata", "~> 1.0"
 end
-
-
-gem 'jekyll-auto-image'
-gem 'jekyll-bootstrap-sass'
