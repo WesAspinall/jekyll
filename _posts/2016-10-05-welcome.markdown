@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "welcome"
+title:  "Welcome to my Blog"
 date:   2016-10-05 22:07:19 -0400
-categories: AngularJS
-description: "Before, we used directives for almost everything. That all changes in Angular 1.5 and 2."
+categories: Welcome
+description:  "If you teach others what you learn, you will achieve a greater understanding of the subject." 
 comments: true
 ---
 # Welcome to my blog. 

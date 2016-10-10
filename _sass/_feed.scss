@@ -3,7 +3,12 @@
 
 .post-feed {
   list-style-type: none;
+  max-width: 500px;
   padding-right: 2em;
+  animation: fadeIn 0.8s;
+  border-radius: 5px;
+  border: 1px solid #E3E3E3;
+  background-color: #F5F5F5;
  }
 
 .card {
@@ -14,6 +19,17 @@
   }
 }
 
+.post-description {
+  width: 400px;
+  padding-top: 1em;
+  padding-right: 1em;
+  font-size: 1.3em;
+}
+
+.read-more {
+  padding-top: 1em;
+}
+
 @media (min-width: 768px) {
   .post-feed {
     margin-left: 35%;
@@ -22,6 +38,6 @@
 
 @media (min-width: 992px) {
   .post-feed {
-    margin-left: 25%;
+    margin-left: 28%;
   }
 }
