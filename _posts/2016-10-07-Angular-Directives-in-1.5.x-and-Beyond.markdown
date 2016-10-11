@@ -89,7 +89,7 @@ The Angular team describes components as an opinionated, stripped-down version o
 
 Ok, I'll tell you more things. Angular does a great job of documenting the [differences between directives and components](https://docs.angularjs.org/guide/component) in their docs. [Todd Motto's opinionated style guides](https://github.com/toddmotto/angular-styleguide/blob/master/README.md) are also great. Be sure to check those out if you're learning about the current way to build Angular apps.
 
-This is just some basic information about the use of components. I'm also working through many other Angular JS concepts and providing examples in a [github repo] (https://github.com/wesaspinall/ng-koans). I hope you find this helpful.
+This is just some basic information about the use of components. I'm also working through many other Angular JS concepts and providing examples in a [github repo](https://github.com/wesaspinall/ng-koans). I hope you find this helpful.
 
 Thnks fr rdng,
 
